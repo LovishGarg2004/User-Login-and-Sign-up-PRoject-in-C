@@ -138,17 +138,17 @@ int validation()
         }  
         for(int i=0;i<strlen(password_1);i++)                     
         {                                                                 //checking the correct format for a strong password.
-            if(password_1[i]>='!' || password_1[i]<'~')                   // condition for any special case letter.
+            if(password_1[i]>=' ' && password_1[i]<'~')                   // condition for any special case letter.
             {
-                if(password_1[i]>='A' || password_1[i]<='Z')              //condition for upper case letter.
+                if(password_1[i]>='A' && password_1[i]<='Z')              //condition for upper case letter.
                 {
                     upper++;
                 }
-                else if(password_1[i]>='a' || password_1[i]<='z')         //condition for lower case letter.
+                else if(password_1[i]>='a' && password_1[i]<='z')         //condition for lower case letter.
                 {
                     lower++;
                 }
-                else if(password_1[i]>='0' || password_1[i]<='9')         //condition for numerical.
+                else if(password_1[i]>='0' && password_1[i]<='9')         //condition for numerical.
                 {
                     digit++;
                 }
@@ -172,7 +172,7 @@ int validation()
         goto Password;
     }
 
-    if(upper!=0 || lower!=0 || digit!=0 || special!=0)
+    if(upper==0 || lower==0 || digit==0 || special==0)
     {
         flag=0;
         printf("Invalid Password Format!\n\n");
