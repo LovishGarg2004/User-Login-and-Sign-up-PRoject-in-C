@@ -350,8 +350,6 @@ void signup()
 
     Contact:
     printf("Contact no. = ");
-    // scanf("%d",&contact_no);
-    // printf("%d\n",contact_no);
     scanf("\n");
     gets(contact_no);
     int count=0;
@@ -373,34 +371,6 @@ void signup()
         printf("\nInvalid Contact Number !\n");
         goto Contact;
     }
-
-    
-    // long int copied = contact_no
-
-    // int count =0;
-    // for(int i=0 ; i<10 && contact_no!=0 ; i++)
-    // {
-    // printf("\n%ld",contact_no);     
-    // contact_no = contact_no / 10;
-    //     count++;
-    // }
-    // if(count==10)
-    // {
-    //     flag=1;
-    // }
-    // else if(count==0)
-    // {
-    //     flag=0;
-    //     printf("Contact no. Not Found !\n\n");
-    //     goto Contact;
-    // }
-    // else
-    // {
-    //     printf("%ld\n",count);
-    //     flag=0;
-    //     printf("Invalid Contact no.\n\n");
-    //     goto Contact;
-    // }
 
     int x = validation();
     if(x==1)
@@ -450,30 +420,6 @@ void login()
     }
 
 }
-
-// void Shop()
-// {
-//     printf("\n-------------- Welcome To The Home Page of The Online Shopping Site of Branded Clothes.-------------\n");
-
-//     Shop:
-//     printf("\nSelect interested one from the following categories : \n");
-//     printf("\n1 Fashion Products\n2 Electronic Products \n3 Food Products \n4 Exit\n");
-
-//     int Shop_choice;
-//     scanf("%d",&Shop_choice);
-
-//     switch(Shop_choice)
-//     {
-//         case 1:
-//         Fashion();
-//         break;
-        
-//         case 2:
-//         Electronics();
-//         break;
-//     }
-
-// }
 
 void Fashion()
 {
