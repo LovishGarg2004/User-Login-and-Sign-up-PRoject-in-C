@@ -28,7 +28,7 @@ This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.
 
 ## Reporting Issues
 
-If you encounter any bugs, issues, or have suggestions for improvements, please check the [existing issues](https://github.com/your-username/online-shopping-site/issues) to see if they have already been reported. If not, feel free to [open a new issue](https://github.com/your-username/online-shopping-site/issues/new) with a detailed description of the problem or suggestion.
+If you encounter any bugs, issues, or have suggestions for improvements, please check the [existing issues](https://github.com/LovishGarg2004/User-Login-and-Sign-up-PRoject-in-C/issues) to see if they have already been reported. If not, feel free to [open a new issue](https://github.com/LovishGarg2004/User-Login-and-Sign-up-PRoject-in-C/issues/new) with a detailed description of the problem or suggestion.
 
 ## License
 
